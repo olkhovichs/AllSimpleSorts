@@ -1,4 +1,6 @@
 #include "Bubble.h"
+#include "Shaker.h"
+#include "Comb.h""
 
 #include <iostream>
 #include <array>
@@ -22,10 +24,15 @@ int main()
 	for (int i = 0; i < arr.size(); i++) {
 		arr[i] = 1 + rand() % 1000;
 	}
+
 	std::cout << "Unsorted array:" << std::endl;
 	printArray(arr);
 
-	sortBubble(arr); // вывод в main
+	//sortBubble(arr);
+	//sortShaker(arr);
+	sortComb(arr);
+	std::cout << "Sorted array:" << std::endl;
+	printArray(arr);
 	
 	return 0;
 }
