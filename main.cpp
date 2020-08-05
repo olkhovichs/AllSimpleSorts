@@ -1,6 +1,7 @@
 #include "Bubble.h"
 #include "Shaker.h"
 #include "Comb.h""
+#include "Insert.h"
 
 #include <iostream>
 #include <array>
@@ -30,7 +31,8 @@ int main()
 
 	//sortBubble(arr);
 	//sortShaker(arr);
-	sortComb(arr);
+	//sortComb(arr);
+	sortInsert(arr);
 	std::cout << "Sorted array:" << std::endl;
 	printArray(arr);
 	
