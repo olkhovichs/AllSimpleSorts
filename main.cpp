@@ -2,6 +2,7 @@
 #include "Shaker.h"
 #include "Comb.h""
 #include "Insert.h"
+#include "Shell.h"
 
 #include <iostream>
 #include <array>
@@ -29,10 +30,11 @@ int main()
 	std::cout << "Unsorted array:" << std::endl;
 	printArray(arr);
 
-	//sortBubble(arr);
-	//sortShaker(arr);
-	//sortComb(arr);
-	sortInsert(arr);
+	sortBubble(&arr);
+	//sortShaker(&arr);
+	//sortComb(&arr);
+	//sortInsert(&arr);
+	//sortShell(&arr);
 	std::cout << "Sorted array:" << std::endl;
 	printArray(arr);
 	

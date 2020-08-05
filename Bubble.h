@@ -2,4 +2,4 @@
 
 #include <array>
 
-void sortBubble(std::array<int, 100>& array);
+void sortBubble(std::array<int, 100>* array);

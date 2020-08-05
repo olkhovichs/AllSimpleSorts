@@ -2,4 +2,4 @@
 
 #include <array>
 
-void sortShaker(std::array<int, 100>& array);
+void sortShaker(std::array<int, 100>* array);

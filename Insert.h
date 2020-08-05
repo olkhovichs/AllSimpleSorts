@@ -2,4 +2,4 @@
 
 #include <array>
 
-void sortInsert(std::array<int, 100>& array);
+void sortInsert(std::array<int, 100>* array);

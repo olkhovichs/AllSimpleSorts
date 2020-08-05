@@ -143,12 +143,14 @@
     <ClCompile Include="Insert.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shaker.cpp" />
+    <ClCompile Include="Shell.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bubble.h" />
     <ClInclude Include="Comb.h" />
     <ClInclude Include="Insert.h" />
     <ClInclude Include="Shaker.h" />
+    <ClInclude Include="Shell.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
