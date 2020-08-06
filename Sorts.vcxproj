@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bubble.cpp" />
+    <ClCompile Include="Choice.cpp" />
     <ClCompile Include="Comb.cpp" />
     <ClCompile Include="Insert.cpp" />
     <ClCompile Include="main.cpp" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bubble.h" />
+    <ClInclude Include="Choice.h" />
     <ClInclude Include="Comb.h" />
     <ClInclude Include="Insert.h" />
     <ClInclude Include="Shaker.h" />

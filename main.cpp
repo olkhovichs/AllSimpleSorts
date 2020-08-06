@@ -3,6 +3,7 @@
 #include "Comb.h""
 #include "Insert.h"
 #include "Shell.h"
+#include "Choice.h"
 
 #include <iostream>
 #include <array>
@@ -35,6 +36,7 @@ int main()
 	//sortComb(&arr);
 	//sortInsert(&arr);
 	//sortShell(&arr);
+	sortChoice(&arr);
 	std::cout << "Sorted array:" << std::endl;
 	printArray(arr);
 	
