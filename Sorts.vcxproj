@@ -141,6 +141,7 @@
     <ClCompile Include="Bubble.cpp" />
     <ClCompile Include="Choice.cpp" />
     <ClCompile Include="Comb.cpp" />
+    <ClCompile Include="Heap.cpp" />
     <ClCompile Include="Insert.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shaker.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Bubble.h" />
     <ClInclude Include="Choice.h" />
     <ClInclude Include="Comb.h" />
+    <ClInclude Include="Heap.h" />
     <ClInclude Include="Insert.h" />
     <ClInclude Include="Shaker.h" />
     <ClInclude Include="Shell.h" />
