@@ -6,6 +6,7 @@
 #include "Choice.h"
 #include "Heap.h"
 #include "Quick.h"
+#include "Merge.h"
 
 #include <iostream>
 #include <array>
@@ -40,7 +41,8 @@ int main()
 	//sortShell(&arr); 
 	//sortChoice(&arr);
 	//sortHeap(&arr);
-	sortQuick(&arr, 0, arr.size() - 1);
+	//sortQuick(&arr, 0, arr.size() - 1);
+	sortMerge(&arr, 0, arr.size() - 1);
 	std::cout << "Sorted array:" << std::endl;
 	printArray(arr);
 	

@@ -144,6 +144,7 @@
     <ClCompile Include="Heap.cpp" />
     <ClCompile Include="Insert.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Merge.cpp" />
     <ClCompile Include="Quick.cpp" />
     <ClCompile Include="Shaker.cpp" />
     <ClCompile Include="Shell.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Comb.h" />
     <ClInclude Include="Heap.h" />
     <ClInclude Include="Insert.h" />
+    <ClInclude Include="Merge.h" />
     <ClInclude Include="Quick.h" />
     <ClInclude Include="Shaker.h" />
     <ClInclude Include="Shell.h" />
