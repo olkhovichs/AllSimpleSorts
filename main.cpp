@@ -12,8 +12,10 @@
 #include <array>
 #include <ctime>
 #include <iomanip>
+#include <fstream>
 
 void printArray(std::array<int, 100> array);
+
 
 void printArray(std::array<int, 100> array) {
 	for (int i = 0; i < array.size(); i++) {
@@ -34,7 +36,7 @@ int main()
 	std::cout << "Unsorted array:" << std::endl;
 	printArray(arr);
 
-	//sortBubble(&arr);
+	sortBubble(&arr);
 	//sortShaker(&arr);
 	//sortComb(&arr);
 	//sortInsert(&arr);
@@ -42,9 +44,16 @@ int main()
 	//sortChoice(&arr);
 	//sortHeap(&arr);
 	//sortQuick(&arr, 0, arr.size() - 1);
-	sortMerge(&arr, 0, arr.size() - 1);
+	//sortMerge(&arr, 0, arr.size() - 1);
+
 	std::cout << "Sorted array:" << std::endl;
 	printArray(arr);
-	
+	std::fstream outFile;
+	outFile.open("out.txt", std::fstream::in | std::fstream::out);
+	for (int i = 0; i < arr.size(); i++) {
+		outFile << std::setw(5) << arr[i];
+	}
+	outFile.close();
+
 	return 0;
 }
